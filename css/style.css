@@ -964,9 +964,9 @@ h3 {
   }
 
   .footer__top {
-    grid-template-columns: minmax(0, 340px) 158px max-content;
+    width: 100%;
+    grid-template-columns: minmax(0, 1fr) auto auto;
     gap: 32px;
-    justify-content: start;
   }
 
   .footer__brand {
